@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="index.css"/>
+		<title>Formulário de Cadastro</title>
+	</head>
+	<body>
+		<div class="logo" align="center">
+			Informações do jogo
+		</div>
+		<form class="relative"action="insere.php" method="post">
+			<table border=0 placeholder="10px">
+				<tr>
+				<td>NOME</td>
+				<td><input type="text" name="nomeJogo"></td>
+				</tr>
+				
+				<tr>
+				<td>Genero</td>
+				<td><input type="text" name="generoJogo"></td>
+				</tr>
+				
+				<tr>
+				<td>Plataforma</td>
+				<td>
+					<INPUT TYPE="radio" NAME="plataformaJogo" VALUE="PC"> PC </input>
+					<INPUT TYPE="radio" NAME="plataformaJogo" VALUE="Console"> CONSOLE </input>
+					<INPUT TYPE="radio" NAME="plataformaJogo" VALUE="Portatil"> PORTATIL </input>
+				</td>
+				</tr>
+			
+				<tr>
+				<td>Desenvolvedora</td>
+				<td><input type="text" name="desenvolvedoraJogo"></td>
+				</tr>
+			
+				<tr>
+				<td>Distribuidora</td>
+				<td><input type="text" name="distribuidoraJogo"></td>
+				</tr>
+				
+				<tr>
+				<td>Data de Lançamento</td>
+				<td><input type="date" name="dataJogo"></td>
+				</tr>
+				
+				<tr>
+				<td>Imagem</td>
+				<td><input type="text" name="imagemJogo"></td>
+				</tr>
+				
+				<tr>
+					<td>Trailer</td>
+					<td><input type="text" name="trailerJogo"></td>
+				</tr>
+				
+				<tr>
+				<td>DESCRIÇÃO</td>
+				<td><textarea rows="5" cols="21" name="descricaoJogo"></textarea> </td>
+				</tr>
+				
+				
+				<tr>
+				<td><button type="submit"> <img src="imagens/adicionar.png">  </button></td>
+				<td><button type="reset"> <img src="imagens/limpar.png"> </button> </td>
+				<td><form action="painel.php"> <button type="submit"> <img  src="imagens/voltar.png" width="24" height="24"> </form></td>
+				</tr>
+			<table>
+		</form>
+		
+	</body>
+
+</html> 
