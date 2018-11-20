@@ -63,7 +63,7 @@
 		<?php
 			$stringConexao="mysql:host=127.0.0.1;dbname=dbcatalogo";
 			$usuario="root";
-			$senha="root";
+			$senha="";
 			$conexao = new PDO($stringConexao, $usuario, $senha);
 			
 			
